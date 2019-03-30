@@ -122,7 +122,7 @@ ul.skills-list > li:before {
     max-width: 33%;
 }
 
-.course .descrition {
+.course .description {
     -ms-flex: 0 0 66.6%;
     flex: 0 0 66.6%;
     max-width: 66.6%;
@@ -153,6 +153,17 @@ article ul.job-skills > li:before {
     content: "►";
     padding-right: 0.5em;
     color: #509e98;
+}
+
+article .description ul {
+    list-style-type: none;
+}
+
+article .description ul > li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #509e98;
+
 }
 
 ul.job-title > li:before {
