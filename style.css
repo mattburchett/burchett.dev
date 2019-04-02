@@ -227,3 +227,9 @@ footer {
         text-align: center;
     }
 }
+
+@media print {
+    .noPrint {
+        display: none;
+    }
+}
